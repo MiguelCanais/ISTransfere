@@ -1,0 +1,12 @@
+[directories]
+downloads = "downloads"
+organized_files = "~/ist"
+
+[options]
+debug = false
+keep_copy = true
+
+[courses] 
+list = [     
+	"LP11/2024-2025/1-semestre",
+] 
