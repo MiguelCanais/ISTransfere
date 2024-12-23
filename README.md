@@ -10,7 +10,7 @@ Uses <a href="https://scrapy.org/">Scrapy's library</a>. <br/>
 ## Configuration
 1. Prepare the virtual environment
 ```sh
-bash install.sh
+source ./install.sh
 ```
 2. Create the file with your credentials
 ```sh
@@ -26,10 +26,10 @@ vim config.toml
 
 
 ## Running
-Download the files + organize the inbox
+Download the files + organize the downloads into the organized folder
 ```bash
 # Run spider, RUN!
-scrapy crawl fenix_spider && python src/filter_inbox.py
+scrapy crawl fenix_spider && python src/filter_downloads.py
 ```
 
 
