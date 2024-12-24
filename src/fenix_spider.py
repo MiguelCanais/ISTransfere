@@ -73,6 +73,10 @@ class FenixSpider(scrapy.Spider):
         self.USERNAME = os.getenv("IST_ID")
         self.PASSWORD = os.getenv("FENIX_PASSWORD")
 
+        if not self.USERNAME or not self.PASSWORD:
+            self.USERNAME = input("Insert your IST id (istxxxxxxx): ")
+            self.PASSWORD =input("Insert your fenix password: ") 
+
         with open("config.toml","rb") as config_file:
             config = tomllib.load(config_file)
 

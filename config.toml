@@ -1,6 +1,6 @@
 [directories]
 downloads = "downloads"
-organized_files = "~/ist"
+organized_files = "organized-files"
 
 [options]
 debug = false
@@ -8,5 +8,5 @@ keep_copy = true
 
 [courses] 
 list = [     
-	"LP11/2024-2025/1-semestre",
+	"AL511/2024-2025/1-semestre",
 ] 
