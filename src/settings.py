@@ -15,7 +15,7 @@ with open("config.toml", "rb") as file:
     config = tomllib.load(file)
 
 
-BOT_NAME = "istransferido"
+BOT_NAME = "istransfere"
 SPIDER_MODULES = ["src"]
 NEWSPIDER_MODULE = "src"
 FILES_STORE = os.path.expanduser(config["directories"]["downloads"])
